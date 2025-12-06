@@ -13,11 +13,11 @@ This project was created as an assessment to demonstrate:
 
 ### Requirements Met
 
-✅ **Form Submission**: Users can submit an XKCD comic ID through a web form  
-✅ **API Integration**: Fetches comic data from `https://xkcd.com/{id}/info.0.json`  
-✅ **Success Handling**: Displays the comic image, title, and alt text when found  
-✅ **Error Handling**: Shows an error message and fallback image when comic doesn't exist  
-✅ **Flask Request Object**: Uses `request.form.get()` to retrieve form data  
+ **Form Submission**: Users can submit an XKCD comic ID through a web form  
+ **API Integration**: Fetches comic data from `https://xkcd.com/{id}/info.0.json`  
+ **Success Handling**: Displays the comic image, title, and alt text when found  
+ **Error Handling**: Shows an error message and fallback image when comic doesn't exist  
+ **Flask Request Object**: Uses `request.form.get()` to retrieve form data  
 
 ## Features
 
