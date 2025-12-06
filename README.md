@@ -216,47 +216,7 @@ curl -X POST http://localhost:8080 -d "comic_id=936"
 curl -X POST http://localhost:8080 -d "comic_id=99999"
 ```
 
-## Troubleshooting
 
-### Port Already in Use
-
-If port 8080 is already in use, you can modify the port in `main.py`:
-```python
-app.run(host='0.0.0.0', port=8080)  # Change 8080 to another port
-```
-
-### Dependencies Not Found
-
-Make sure the virtual environment is activated and dependencies are installed:
-```bash
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-### Cannot Access from Browser
-
-- Ensure the Flask app is running
-- Check that you're using the correct URL: `http://localhost:8080`
-- Verify firewall settings allow connections on port 8080
-
-## Future Enhancements
-
-Potential improvements for the application:
-
-- Random comic button
-- Navigation between comics (previous/next)
-- Comic search by title
-- Favorite comics list
-- Comic history tracking
-- Responsive mobile design improvements
-
-## License
-
-This project was created for assessment purposes.
-
-## Author
-
-Created as part of a Flask web development assessment.
 
 ---
 
